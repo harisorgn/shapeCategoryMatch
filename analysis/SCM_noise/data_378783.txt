@@ -1,0 +1,2154 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","time_elapsed","internal_node_id","subject_id","study_id","session_id","rt","stimulus","response","task","correct_response","exemplar_ID","category","difficulty","phase","correct","bonus","trial_bonus"
+"true","false","[]","[]","[]","preload","0","2","0.0-0.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","","","","","","","","","","","",""
+"","","","","","html-keyboard-response","1","3388","0.0-1.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3384","Welcome to the Category Matching experiment! Press any key to continue.","l","welcome","","","","","","","",""
+"","","","","","html-keyboard-response","2","28346","0.0-2.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","24955","
+            <p>You will be shown movies. Each movie contains a shape that initially is hidden and is gradually revealed. 
+            <p> While you watch a shape being revealed, you have to choose which shape from the two below it is most similar to : </p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key to choose this shape.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png >
+                    <div class=""word""><b>Press right arrow key to choose this shape.</b></div>
+                </div>
+            </div>
+            <br>
+            <p>Press any key to continue.</p>
+            ","arrowright","introduction_1","","","","","","","",""
+"","","","","","html-keyboard-response","3","43417","0.0-3.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","15070","
+            <p> After you choose, the screen will show you whether you were correct or not.</p>
+            <p><b>You will receive a bonus payment for each correct answer! The faster you answer the higher the bonus will be!</b></p>
+            <p> So you can increase your bonus by guessing as quickly and accurately as possible.</p>
+            <p><b>You will lose $0.1 from your bonus payment for each incorrect answer! The bonus can not become less than $0.</b> </p>
+            <p>Press any key to continue.</p>
+    "," ","introduction_2","","","","","","","",""
+"","","","","","html-keyboard-response","4","49449","0.0-4.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","6031","
+            <p> <b>The first 10 shapes are a practice round that will not count towards your bonus payment.</b></p>
+            <p> You will be notified when practice finishes and the test begins. </p>
+            <p> Press any key to begin the practice round.</p>
+            "," ","introduction_3","","","","","","","",""
+"","","","","","html-keyboard-response","5","55907","0.0-5.0-0.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","6454","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","6","60418","0.0-5.0-1.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","4503","./stimuli//pack_noise_shapes_3/cat_1/diff_2/ex_1_2_2.mp4","arrowleft","response","ArrowLeft","2","1","2","train","true","",""
+"","","","","","html-keyboard-response","7","61921","0.0-5.0-2.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","8","63282","0.0-5.0-0.1","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1358","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","9","65490","0.0-5.0-1.1","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2204","./stimuli//pack_noise_shapes_3/cat_2/diff_1/ex_2_1_6.mp4","arrowright","response","ArrowRight","6","2","1","train","true","",""
+"","","","","","html-keyboard-response","10","66992","0.0-5.0-2.1","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","11","67523","0.0-5.0-0.2","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","527","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","12","69496","0.0-5.0-1.2","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1968","./stimuli//pack_noise_shapes_3/cat_1/diff_2/ex_1_2_7.mp4","arrowleft","response","ArrowLeft","7","1","2","train","true","",""
+"","","","","","html-keyboard-response","13","70998","0.0-5.0-2.2","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","14","71673","0.0-5.0-0.3","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","673","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","15","73514","0.0-5.0-1.3","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1837","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_3.mp4","arrowright","response","ArrowRight","3","2","2","train","true","",""
+"","","","","","html-keyboard-response","16","75016","0.0-5.0-2.3","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","17","75497","0.0-5.0-0.4","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","479","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","18","77675","0.0-5.0-1.4","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2176","./stimuli//pack_noise_shapes_3/cat_1/diff_1/ex_1_1_14.mp4","arrowleft","response","ArrowLeft","14","1","1","train","true","",""
+"","","","","","html-keyboard-response","19","79177","0.0-5.0-2.4","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","20","79865","0.0-5.0-0.5","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","685","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","21","82024","0.0-5.0-1.5","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2156","./stimuli//pack_noise_shapes_3/cat_1/diff_1/ex_1_1_3.mp4","arrowleft","response","ArrowLeft","3","1","1","train","true","",""
+"","","","","","html-keyboard-response","22","83526","0.0-5.0-2.5","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","23","84546","0.0-5.0-0.6","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1016","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","24","86410","0.0-5.0-1.6","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1860","./stimuli//pack_noise_shapes_3/cat_2/diff_1/ex_2_1_12.mp4","arrowright","response","ArrowRight","12","2","1","train","true","",""
+"","","","","","html-keyboard-response","25","87914","0.0-5.0-2.6","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","26","88451","0.0-5.0-0.7","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","534","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","27","90322","0.0-5.0-1.7","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1867","./stimuli//pack_noise_shapes_3/cat_2/diff_1/ex_2_1_17.mp4","arrowright","response","ArrowRight","17","2","1","train","true","",""
+"","","","","","html-keyboard-response","28","91824","0.0-5.0-2.7","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","29","92242","0.0-5.0-0.8","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","415","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","30","94122","0.0-5.0-1.8","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1874","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_14.mp4","arrowright","response","ArrowRight","14","2","2","train","true","",""
+"","","","","","html-keyboard-response","31","95624","0.0-5.0-2.8","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","32","96258","0.0-5.0-0.9","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","631","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","33","98274","0.0-5.0-1.9","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2012","./stimuli//pack_noise_shapes_3/cat_1/diff_1/ex_1_1_17.mp4","arrowleft","response","ArrowLeft","17","1","1","train","true","",""
+"","","","","","html-keyboard-response","34","99777","0.0-5.0-2.9","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct category! </font> </p>","null","feedback","","","","","","","0","0"
+"","","","","","html-keyboard-response","35","109842","0.0-6.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","10062","
+            <b> <p> The practice round has finished.</p>
+            <b> <p> For the rest of the experiment you will receive a bonus payment for each correct answer, which will be higher the faster you answer!</b></p>
+            <b> <p> Also you will lose $0.1 from your bonus payment for each incorrect answer!</p>
+            <p> Press any key to begin the test. </p>
+            "," ","intermission","","","","","","","",""
+"","","","","","html-keyboard-response","36","111032","0.0-7.0-0.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1188","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","37","112786","0.0-7.0-1.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1751","./stimuli//pack_noise_shapes_3/cat_2/diff_1/ex_2_1_10.mp4","arrowright","response","ArrowRight","10","2","1","test","true","",""
+"","","","","","html-keyboard-response","38","114288","0.0-7.0-2.0","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.07","0.07"
+"","","","","","html-keyboard-response","39","114722","0.0-7.1-0.1","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","431","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.07 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","40","116674","0.0-7.1-1.1","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1948","./stimuli//pack_noise_shapes_3/cat_1/diff_1/ex_1_1_6.mp4","arrowleft","response","ArrowLeft","6","1","1","test","true","",""
+"","","","","","html-keyboard-response","41","118175","0.0-7.1-2.1","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.14","0.07"
+"","","","","","html-keyboard-response","42","118547","0.0-7.2-0.2","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","369","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.14 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","43","119947","0.0-7.2-1.2","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1394","./stimuli//pack_noise_shapes_3/cat_1/diff_1/ex_1_1_6.mp4","arrowleft","response","ArrowLeft","6","1","1","test","true","",""
+"","","","","","html-keyboard-response","44","121450","0.0-7.2-2.2","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.08 </font> </p>","null","feedback","","","","","","","0.22","0.08"
+"","","","","","html-keyboard-response","45","121778","0.0-7.3-0.3","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","325","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.22 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","46","123266","0.0-7.3-1.3","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1483","./stimuli//pack_noise_shapes_3/cat_1/diff_1/ex_1_1_6.mp4","arrowleft","response","ArrowLeft","6","1","1","test","true","",""
+"","","","","","html-keyboard-response","47","124768","0.0-7.3-2.3","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.29","0.07"
+"","","","","","html-keyboard-response","48","125289","0.0-7.4-0.4","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","520","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.29 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","49","126793","0.0-7.4-1.4","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1502","./stimuli//pack_noise_shapes_3/cat_2/diff_1/ex_2_1_3.mp4","arrowright","response","ArrowRight","3","2","1","test","true","",""
+"","","","","","html-keyboard-response","50","128294","0.0-7.4-2.4","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.36","0.07"
+"","","","","","html-keyboard-response","51","128833","0.0-7.5-0.5","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","538","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.36 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","52","130786","0.0-7.5-1.5","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1948","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_16.mp4","arrowright","response","ArrowRight","16","2","2","test","true","",""
+"","","","","","html-keyboard-response","53","132288","0.0-7.5-2.5","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.43","0.07"
+"","","","","","html-keyboard-response","54","132930","0.0-7.6-0.6","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","638","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.43 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","55","134754","0.0-7.6-1.6","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1820","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_15.mp4","arrowright","response","ArrowRight","15","2","2","test","true","",""
+"","","","","","html-keyboard-response","56","136255","0.0-7.6-2.6","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.5","0.07"
+"","","","","","html-keyboard-response","57","136618","0.0-7.7-0.7","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","359","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.5 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","58","138841","0.0-7.7-1.7","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2220","./stimuli//pack_noise_shapes_3/cat_1/diff_2/ex_1_2_10.mp4","arrowleft","response","ArrowLeft","10","1","2","test","true","",""
+"","","","","","html-keyboard-response","59","140343","0.0-7.7-2.7","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.06 </font> </p>","null","feedback","","","","","","","0.56","0.06"
+"","","","","","html-keyboard-response","60","140745","0.0-7.8-0.8","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","400","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.56 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","61","142801","0.0-7.8-1.8","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2051","./stimuli//pack_noise_shapes_3/cat_1/diff_2/ex_1_2_16.mp4","arrowleft","response","ArrowLeft","16","1","2","test","true","",""
+"","","","","","html-keyboard-response","62","144303","0.0-7.8-2.8","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.63","0.07"
+"","","","","","html-keyboard-response","63","144801","0.0-7.9-0.9","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","496","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.63 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","64","146074","0.0-7.9-1.9","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1269","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_15.mp4","arrowright","response","ArrowRight","15","2","2","test","true","",""
+"","","","","","html-keyboard-response","65","147576","0.0-7.9-2.9","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.08 </font> </p>","null","feedback","","","","","","","0.71","0.08"
+"","","","","","html-keyboard-response","66","147921","0.0-7.10-0.10","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","343","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.71 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","67","149850","0.0-7.10-1.10","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1926","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_5.mp4","arrowright","response","ArrowRight","5","2","3","test","true","",""
+"","","","","","html-keyboard-response","68","151352","0.0-7.10-2.10","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.78","0.07"
+"","","","","","html-keyboard-response","69","151890","0.0-7.11-0.11","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","537","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.78 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","70","153793","0.0-7.11-1.11","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1899","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_7.mp4","arrowleft","response","ArrowLeft","7","1","3","test","true","",""
+"","","","","","html-keyboard-response","71","155295","0.0-7.11-2.11","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.85","0.07"
+"","","","","","html-keyboard-response","72","155713","0.0-7.12-0.12","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","417","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.85 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","73","157498","0.0-7.12-1.12","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1780","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_1.mp4","arrowright","response","ArrowRight","1","2","3","test","true","",""
+"","","","","","html-keyboard-response","74","159000","0.0-7.12-2.12","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","0.92","0.07"
+"","","","","","html-keyboard-response","75","159505","0.0-7.13-0.13","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","503","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $0.92 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","76","160745","0.0-7.13-1.13","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1237","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_1.mp4","arrowright","response","ArrowRight","1","2","3","test","true","",""
+"","","","","","html-keyboard-response","77","162247","0.0-7.13-2.13","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.08 </font> </p>","null","feedback","","","","","","","1","0.08"
+"","","","","","html-keyboard-response","78","162618","0.0-7.14-0.14","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","369","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","79","164721","0.0-7.14-1.14","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2100","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_1.mp4","arrowleft","response","ArrowLeft","1","1","3","test","true","",""
+"","","","","","html-keyboard-response","80","166224","0.0-7.14-2.14","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","1.07","0.07"
+"","","","","","html-keyboard-response","81","166745","0.0-7.15-0.15","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","519","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.07 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","82","169194","0.0-7.15-1.15","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2444","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_12.mp4","arrowleft","response","ArrowLeft","12","1","4","test","true","",""
+"","","","","","html-keyboard-response","83","170695","0.0-7.15-2.15","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.06 </font> </p>","null","feedback","","","","","","","1.13","0.06"
+"","","","","","html-keyboard-response","84","171113","0.0-7.16-0.16","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","415","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.13 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","85","173252","0.0-7.16-1.16","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2133","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_16.mp4","arrowleft","response","ArrowLeft","16","1","4","test","true","",""
+"","","","","","html-keyboard-response","86","174755","0.0-7.16-2.16","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","1.2","0.07"
+"","","","","","html-keyboard-response","87","175073","0.0-7.17-0.17","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","316","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.2 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","88","177074","0.0-7.17-1.17","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1996","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_15.mp4","arrowleft","response","ArrowLeft","15","1","4","test","true","",""
+"","","","","","html-keyboard-response","89","178577","0.0-7.17-2.17","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.07 </font> </p>","null","feedback","","","","","","","1.27","0.07"
+"","","","","","html-keyboard-response","90","178955","0.0-7.18-0.18","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","375","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.27 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","91","180993","0.0-7.18-1.18","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2035","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_3.mp4","arrowright","response","ArrowRight","3","2","4","test","true","",""
+"","","","","","html-keyboard-response","92","182494","0.0-7.18-2.18","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.12 </font> </p>","null","feedback","","","","","","","1.39","0.12"
+"","","","","","html-keyboard-response","93","183073","0.0-7.19-0.19","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","577","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.39 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","94","184947","0.0-7.19-1.19","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1870","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_2.mp4","arrowleft","response","ArrowLeft","2","1","4","test","true","",""
+"","","","","","html-keyboard-response","95","186450","0.0-7.19-2.19","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.12 </font> </p>","null","feedback","","","","","","","1.51","0.12"
+"","","","","","html-keyboard-response","96","186842","0.0-7.20-0.20","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","390","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.51 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","97","188787","0.0-7.20-1.20","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1941","./stimuli//pack_noise_shapes_3/cat_1/diff_5/ex_1_5_10.mp4","arrowleft","response","ArrowLeft","10","1","5","test","true","",""
+"","","","","","html-keyboard-response","98","190291","0.0-7.20-2.20","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.12 </font> </p>","null","feedback","","","","","","","1.63","0.12"
+"","","","","","html-keyboard-response","99","190754","0.0-7.21-0.21","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","460","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.63 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","100","192674","0.0-7.21-1.21","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1916","./stimuli//pack_noise_shapes_3/cat_2/diff_5/ex_2_5_6.mp4","arrowleft","response","ArrowRight","6","2","5","test","false","",""
+"","","","","","html-keyboard-response","101","197677","0.0-7.21-2.21","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.53","-0.1"
+"","","","","","html-keyboard-response","102","198899","0.0-7.22-0.22","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1218","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.53 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","103","201330","0.0-7.22-1.22","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2425","./stimuli//pack_noise_shapes_3/cat_2/diff_5/ex_2_5_8.mp4","arrowleft","response","ArrowRight","8","2","5","test","false","",""
+"","","","","","html-keyboard-response","104","206332","0.0-7.22-2.22","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.43","-0.1"
+"","","","","","html-keyboard-response","105","208331","0.0-7.23-0.23","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1997","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.43 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","106","211258","0.0-7.23-1.23","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2923","./stimuli//pack_noise_shapes_3/cat_1/diff_5/ex_1_5_11.mp4","arrowleft","response","ArrowLeft","11","1","5","test","true","",""
+"","","","","","html-keyboard-response","107","212761","0.0-7.23-2.23","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.11 </font> </p>","null","feedback","","","","","","","1.54","0.11"
+"","","","","","html-keyboard-response","108","213691","0.0-7.24-0.24","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","928","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.54 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","109","216193","0.0-7.24-1.24","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2498","./stimuli//pack_noise_shapes_3/cat_2/diff_5/ex_2_5_16.mp4","arrowleft","response","ArrowRight","16","2","5","test","false","",""
+"","","","","","html-keyboard-response","110","221194","0.0-7.24-2.24","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.44","-0.1"
+"","","","","","html-keyboard-response","111","224090","0.0-7.25-0.25","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2893","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.44 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","112","227307","0.0-7.25-1.25","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3212","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_15.mp4","arrowright","response","ArrowRight","15","2","4","test","true","",""
+"","","","","","html-keyboard-response","113","228808","0.0-7.25-2.25","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","1.54","0.1"
+"","","","","","html-keyboard-response","114","230778","0.0-7.26-0.26","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1967","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.54 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","115","233250","0.0-7.26-1.26","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2468","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_12.mp4","arrowleft","response","ArrowLeft","12","1","4","test","true","",""
+"","","","","","html-keyboard-response","116","234753","0.0-7.26-2.26","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.11 </font> </p>","null","feedback","","","","","","","1.65","0.11"
+"","","","","","html-keyboard-response","117","235243","0.0-7.27-0.27","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","486","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","118","238250","0.0-7.27-1.27","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3004","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_2.mp4","arrowleft","response","ArrowLeft","2","1","4","test","true","",""
+"","","","","","html-keyboard-response","119","239752","0.0-7.27-2.27","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","1.75","0.1"
+"","","","","","html-keyboard-response","120","240865","0.0-7.28-0.28","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1112","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.75 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","121","243913","0.0-7.28-1.28","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3046","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_12.mp4","arrowleft","response","ArrowRight","12","2","4","test","false","",""
+"","","","","","html-keyboard-response","122","248915","0.0-7.28-2.28","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.65","-0.1"
+"","","","","","html-keyboard-response","123","254227","0.0-7.29-0.29","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","5309","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.65 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","124","256714","0.0-7.29-1.29","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2484","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_6.mp4","arrowright","response","ArrowLeft","6","1","4","test","false","",""
+"","","","","","html-keyboard-response","125","261716","0.0-7.29-2.29","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.55","-0.1"
+"","","","","","html-keyboard-response","126","267059","0.0-7.30-0.30","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","5340","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.55 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","127","269778","0.0-7.30-1.30","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2716","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_16.mp4","arrowright","response","ArrowRight","16","2","3","test","true","",""
+"","","","","","html-keyboard-response","128","271281","0.0-7.30-2.30","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.11 </font> </p>","null","feedback","","","","","","","1.66","0.11"
+"","","","","","html-keyboard-response","129","271682","0.0-7.31-0.31","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","399","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.66 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","130","275019","0.0-7.31-1.31","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3333","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_10.mp4","arrowright","response","ArrowLeft","10","1","3","test","false","",""
+"","","","","","html-keyboard-response","131","280021","0.0-7.31-2.31","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.56","-0.1"
+"","","","","","html-keyboard-response","132","282819","0.0-7.32-0.32","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2795","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.56 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","133","286570","0.0-7.32-1.32","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3747","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_3.mp4","arrowleft","response","ArrowRight","3","2","3","test","false","",""
+"","","","","","html-keyboard-response","134","291572","0.0-7.32-2.32","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.46","-0.1"
+"","","","","","html-keyboard-response","135","295811","0.0-7.33-0.33","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","4237","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.46 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","136","299186","0.0-7.33-1.33","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3371","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_15.mp4","arrowleft","response","ArrowLeft","15","1","3","test","true","",""
+"","","","","","html-keyboard-response","137","300688","0.0-7.33-2.33","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","1.56","0.1"
+"","","","","","html-keyboard-response","138","301562","0.0-7.34-0.34","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","871","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.56 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","139","305402","0.0-7.34-1.34","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3837","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_1.mp4","arrowright","response","ArrowLeft","1","1","3","test","false","",""
+"","","","","","html-keyboard-response","140","310405","0.0-7.34-2.34","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","1.46","-0.1"
+"","","","","","html-keyboard-response","141","314115","0.0-7.35-0.35","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3707","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.46 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","142","316954","0.0-7.35-1.35","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2836","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_15.mp4","arrowright","response","ArrowRight","15","2","2","test","true","",""
+"","","","","","html-keyboard-response","143","318456","0.0-7.35-2.35","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.11 </font> </p>","null","feedback","","","","","","","1.57","0.11"
+"","","","","","html-keyboard-response","144","318906","0.0-7.36-0.36","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","448","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.57 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","145","322211","0.0-7.36-1.36","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3302","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_9.mp4","arrowright","response","ArrowRight","9","2","2","test","true","",""
+"","","","","","html-keyboard-response","146","323713","0.0-7.36-2.36","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","1.67","0.1"
+"","","","","","html-keyboard-response","147","324601","0.0-7.37-0.37","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","887","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.67 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","148","327411","0.0-7.37-1.37","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2807","./stimuli//pack_noise_shapes_3/cat_1/diff_2/ex_1_2_8.mp4","arrowleft","response","ArrowLeft","8","1","2","test","true","",""
+"","","","","","html-keyboard-response","149","328913","0.0-7.37-2.37","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.11 </font> </p>","null","feedback","","","","","","","1.78","0.11"
+"","","","","","html-keyboard-response","150","329876","0.0-7.38-0.38","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","960","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.78 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","151","333155","0.0-7.38-1.38","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3274","./stimuli//pack_noise_shapes_3/cat_1/diff_2/ex_1_2_4.mp4","arrowleft","response","ArrowLeft","4","1","2","test","true","",""
+"","","","","","html-keyboard-response","152","334657","0.0-7.38-2.38","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","1.88","0.1"
+"","","","","","html-keyboard-response","153","335180","0.0-7.39-0.39","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","521","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.88 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","154","338930","0.0-7.39-1.39","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3745","./stimuli//pack_noise_shapes_3/cat_2/diff_2/ex_2_2_8.mp4","arrowright","response","ArrowRight","8","2","2","test","true","",""
+"","","","","","html-keyboard-response","155","340433","0.0-7.39-2.39","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","1.98","0.1"
+"","","","","","html-keyboard-response","156","340938","0.0-7.40-0.40","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","502","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $1.98 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","157","344650","0.0-7.40-1.40","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3709","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_2.mp4","arrowleft","response","ArrowLeft","2","1","3","test","true","",""
+"","","","","","html-keyboard-response","158","346152","0.0-7.40-2.40","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","2.08","0.1"
+"","","","","","html-keyboard-response","159","346651","0.0-7.41-0.41","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","496","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.08 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","160","349580","0.0-7.41-1.41","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2923","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_5.mp4","arrowleft","response","ArrowLeft","5","1","3","test","true","",""
+"","","","","","html-keyboard-response","161","351084","0.0-7.41-2.41","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.11 </font> </p>","null","feedback","","","","","","","2.19","0.11"
+"","","","","","html-keyboard-response","162","351586","0.0-7.42-0.42","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","499","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.19 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","163","355515","0.0-7.42-1.42","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3925","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_11.mp4","arrowleft","response","ArrowLeft","11","1","3","test","true","",""
+"","","","","","html-keyboard-response","164","357016","0.0-7.42-2.42","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.1 </font> </p>","null","feedback","","","","","","","2.29","0.1"
+"","","","","","html-keyboard-response","165","358194","0.0-7.43-0.43","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1176","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.29 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","166","361563","0.0-7.43-1.43","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3363","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_5.mp4","arrowright","response","ArrowRight","5","2","3","test","true","",""
+"","","","","","html-keyboard-response","167","363066","0.0-7.43-2.43","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.15 </font> </p>","null","feedback","","","","","","","2.44","0.15"
+"","","","","","html-keyboard-response","168","363723","0.0-7.44-0.44","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","654","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.44 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","169","367034","0.0-7.44-1.44","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3308","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_14.mp4","arrowleft","response","ArrowLeft","14","1","3","test","true","",""
+"","","","","","html-keyboard-response","170","368536","0.0-7.44-2.44","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.15 </font> </p>","null","feedback","","","","","","","2.59","0.15"
+"","","","","","html-keyboard-response","171","369123","0.0-7.45-0.45","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","585","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.59 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","172","371906","0.0-7.45-1.45","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2779","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_15.mp4","arrowright","response","ArrowRight","15","2","4","test","true","",""
+"","","","","","html-keyboard-response","173","373408","0.0-7.45-2.45","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","2.75","0.16"
+"","","","","","html-keyboard-response","174","374027","0.0-7.46-0.46","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","617","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.75 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","175","376586","0.0-7.46-1.46","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2553","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_10.mp4","arrowright","response","ArrowRight","10","2","4","test","true","",""
+"","","","","","html-keyboard-response","176","378089","0.0-7.46-2.46","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","2.91","0.16"
+"","","","","","html-keyboard-response","177","378634","0.0-7.47-0.47","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","542","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.91 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","178","381459","0.0-7.47-1.47","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2821","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_2.mp4","arrowright","response","ArrowLeft","2","1","4","test","false","",""
+"","","","","","html-keyboard-response","179","386461","0.0-7.47-2.47","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","2.81","-0.1"
+"","","","","","html-keyboard-response","180","387332","0.0-7.48-0.48","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","864","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.81 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","181","390578","0.0-7.48-1.48","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3243","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_16.mp4","arrowright","response","ArrowRight","16","2","4","test","true","",""
+"","","","","","html-keyboard-response","182","392082","0.0-7.48-2.48","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.15 </font> </p>","null","feedback","","","","","","","2.96","0.15"
+"","","","","","html-keyboard-response","183","392562","0.0-7.49-0.49","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","478","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.96 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","184","395578","0.0-7.49-1.49","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3012","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_3.mp4","arrowleft","response","ArrowRight","3","2","4","test","false","",""
+"","","","","","html-keyboard-response","185","400580","0.0-7.49-2.49","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","2.86","-0.1"
+"","","","","","html-keyboard-response","186","401068","0.0-7.50-0.50","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","483","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.86 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","187","404411","0.0-7.50-1.50","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3339","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_2.mp4","arrowright","response","ArrowLeft","2","1","3","test","false","",""
+"","","","","","html-keyboard-response","188","409414","0.0-7.50-2.50","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","2.76","-0.1"
+"","","","","","html-keyboard-response","189","410682","0.0-7.51-0.51","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1265","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.76 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","190","414373","0.0-7.51-1.51","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3687","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_2.mp4","arrowleft","response","ArrowLeft","2","1","3","test","true","",""
+"","","","","","html-keyboard-response","191","415876","0.0-7.51-2.51","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.15 </font> </p>","null","feedback","","","","","","","2.91","0.15"
+"","","","","","html-keyboard-response","192","416675","0.0-7.52-0.52","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","798","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $2.91 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","193","419401","0.0-7.52-1.52","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2722","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_11.mp4","arrowright","response","ArrowRight","11","2","3","test","true","",""
+"","","","","","html-keyboard-response","194","420902","0.0-7.52-2.52","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","3.07","0.16"
+"","","","","","html-keyboard-response","195","432571","0.0-7.53-0.53","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","11666","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.07 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","196","434619","0.0-7.53-1.53","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2044","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_17.mp4","arrowright","response","ArrowRight","17","2","3","test","true","",""
+"","","","","","html-keyboard-response","197","436122","0.0-7.53-2.53","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.17 </font> </p>","null","feedback","","","","","","","3.24","0.17"
+"","","","","","html-keyboard-response","198","436827","0.0-7.54-0.54","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","702","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.24 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","199","439283","0.0-7.54-1.54","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2452","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_9.mp4","arrowright","response","ArrowRight","9","2","3","test","true","",""
+"","","","","","html-keyboard-response","200","440788","0.0-7.54-2.54","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","3.4","0.16"
+"","","","","","html-keyboard-response","201","441986","0.0-7.55-0.55","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1196","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.4 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","202","444481","0.0-7.55-1.55","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2492","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_10.mp4","arrowright","response","ArrowRight","10","2","4","test","true","",""
+"","","","","","html-keyboard-response","203","445983","0.0-7.55-2.55","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","3.56","0.16"
+"","","","","","html-keyboard-response","204","446667","0.0-7.56-0.56","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","678","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.56 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","205","448794","0.0-7.56-1.56","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2122","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_10.mp4","arrowright","response","ArrowRight","10","2","4","test","true","",""
+"","","","","","html-keyboard-response","206","450297","0.0-7.56-2.56","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.17 </font> </p>","null","feedback","","","","","","","3.73","0.17"
+"","","","","","html-keyboard-response","207","450706","0.0-7.57-0.57","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","407","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.73 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","208","453075","0.0-7.57-1.57","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2365","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_7.mp4","arrowleft","response","ArrowRight","7","2","4","test","false","",""
+"","","","","","html-keyboard-response","209","458077","0.0-7.57-2.57","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","3.63","-0.1"
+"","","","","","html-keyboard-response","210","459827","0.0-7.58-0.58","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1748","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.63 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","211","462314","0.0-7.58-1.58","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2483","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_17.mp4","arrowright","response","ArrowRight","17","2","4","test","true","",""
+"","","","","","html-keyboard-response","212","463816","0.0-7.58-2.58","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","3.79","0.16"
+"","","","","","html-keyboard-response","213","464388","0.0-7.59-0.59","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","569","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.79 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","214","468019","0.0-7.59-1.59","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3626","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_4.mp4","arrowright","response","ArrowLeft","4","1","4","test","false","",""
+"","","","","","html-keyboard-response","215","473022","0.0-7.59-2.59","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","3.69","-0.1"
+"","","","","","html-keyboard-response","216","475956","0.0-7.60-0.60","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2931","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.69 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","217","478354","0.0-7.60-1.60","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2395","./stimuli//pack_noise_shapes_3/cat_1/diff_3/ex_1_3_14.mp4","arrowleft","response","ArrowLeft","14","1","3","test","true","",""
+"","","","","","html-keyboard-response","218","479857","0.0-7.60-2.60","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","3.85","0.16"
+"","","","","","html-keyboard-response","219","482210","0.0-7.61-0.61","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2351","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.85 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","220","484785","0.0-7.61-1.61","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2571","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_14.mp4","arrowright","response","ArrowRight","14","2","3","test","true","",""
+"","","","","","html-keyboard-response","221","486287","0.0-7.61-2.61","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","4.01","0.16"
+"","","","","","html-keyboard-response","222","486833","0.0-7.62-0.62","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","545","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.01 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","223","489579","0.0-7.62-1.62","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2743","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_8.mp4","arrowleft","response","ArrowRight","8","2","3","test","false","",""
+"","","","","","html-keyboard-response","224","494582","0.0-7.62-2.62","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","3.91","-0.1"
+"","","","","","html-keyboard-response","225","495306","0.0-7.63-0.63","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","722","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $3.91 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","226","498180","0.0-7.63-1.63","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2869","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_13.mp4","arrowright","response","ArrowRight","13","2","3","test","true","",""
+"","","","","","html-keyboard-response","227","499695","0.0-7.63-2.63","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","4.07","0.16"
+"","","","","","html-keyboard-response","228","500434","0.0-7.64-0.64","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","737","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.07 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","229","502194","0.0-7.64-1.64","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1757","./stimuli//pack_noise_shapes_3/cat_2/diff_3/ex_2_3_13.mp4","arrowright","response","ArrowRight","13","2","3","test","true","",""
+"","","","","","html-keyboard-response","230","503696","0.0-7.64-2.64","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.17 </font> </p>","null","feedback","","","","","","","4.24","0.17"
+"","","","","","html-keyboard-response","231","505147","0.0-7.65-0.65","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1447","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.24 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","232","507891","0.0-7.65-1.65","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2740","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_11.mp4","arrowleft","response","ArrowLeft","11","1","4","test","true","",""
+"","","","","","html-keyboard-response","233","509393","0.0-7.65-2.65","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","4.4","0.16"
+"","","","","","html-keyboard-response","234","509908","0.0-7.66-0.66","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","512","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.4 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","235","512802","0.0-7.66-1.66","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2890","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_4.mp4","arrowleft","response","ArrowRight","4","2","4","test","false","",""
+"","","","","","html-keyboard-response","236","517804","0.0-7.66-2.66","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","4.3","-0.1"
+"","","","","","html-keyboard-response","237","518418","0.0-7.67-0.67","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","610","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.3 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","238","520603","0.0-7.67-1.67","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2182","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_11.mp4","arrowleft","response","ArrowLeft","11","1","4","test","true","",""
+"","","","","","html-keyboard-response","239","522105","0.0-7.67-2.67","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","4.46","0.16"
+"","","","","","html-keyboard-response","240","522612","0.0-7.68-0.68","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","503","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.46 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","241","524692","0.0-7.68-1.68","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2076","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_15.mp4","arrowright","response","ArrowRight","15","2","4","test","true","",""
+"","","","","","html-keyboard-response","242","526195","0.0-7.68-2.68","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.17 </font> </p>","null","feedback","","","","","","","4.63","0.17"
+"","","","","","html-keyboard-response","243","526603","0.0-7.69-0.69","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","405","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.63 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","244","528818","0.0-7.69-1.69","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2210","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_14.mp4","arrowright","response","ArrowRight","14","2","4","test","true","",""
+"","","","","","html-keyboard-response","245","530321","0.0-7.69-2.69","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","4.79","0.16"
+"","","","","","html-keyboard-response","246","530803","0.0-7.70-0.70","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","479","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.79 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","247","533092","0.0-7.70-1.70","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2285","./stimuli//pack_noise_shapes_3/cat_2/diff_5/ex_2_5_6.mp4","arrowright","response","ArrowRight","6","2","5","test","true","",""
+"","","","","","html-keyboard-response","248","534593","0.0-7.70-2.70","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","4.95","0.16"
+"","","","","","html-keyboard-response","249","535066","0.0-7.71-0.71","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","470","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.95 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","250","538098","0.0-7.71-1.71","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3029","./stimuli//pack_noise_shapes_3/cat_1/diff_5/ex_1_5_9.mp4","arrowleft","response","ArrowLeft","9","1","5","test","true","",""
+"","","","","","html-keyboard-response","251","539601","0.0-7.71-2.71","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.15 </font> </p>","null","feedback","","","","","","","5.1","0.15"
+"","","","","","html-keyboard-response","252","539986","0.0-7.72-0.72","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","382","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.1 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","253","542579","0.0-7.72-1.72","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2589","./stimuli//pack_noise_shapes_3/cat_1/diff_5/ex_1_5_14.mp4","arrowleft","response","ArrowLeft","14","1","5","test","true","",""
+"","","","","","html-keyboard-response","254","544081","0.0-7.72-2.72","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","5.26","0.16"
+"","","","","","html-keyboard-response","255","544411","0.0-7.73-0.73","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","327","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.26 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","256","547059","0.0-7.73-1.73","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2644","./stimuli//pack_noise_shapes_3/cat_1/diff_5/ex_1_5_2.mp4","arrowright","response","ArrowLeft","2","1","5","test","false","",""
+"","","","","","html-keyboard-response","257","552062","0.0-7.73-2.73","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","5.16","-0.1"
+"","","","","","html-keyboard-response","258","553988","0.0-7.74-0.74","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1923","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.16 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","259","556922","0.0-7.74-1.74","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2929","./stimuli//pack_noise_shapes_3/cat_2/diff_5/ex_2_5_4.mp4","arrowleft","response","ArrowRight","4","2","5","test","false","",""
+"","","","","","html-keyboard-response","260","561925","0.0-7.74-2.74","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","5.06","-0.1"
+"","","","","","html-keyboard-response","261","562875","0.0-7.75-0.75","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","947","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.06 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","262","565731","0.0-7.75-1.75","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2852","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_7.mp4","arrowleft","response","ArrowRight","7","2","4","test","false","",""
+"","","","","","html-keyboard-response","263","570733","0.0-7.75-2.75","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""red"" size=""5vw""> Wrong match! </font> <br> <br> <font color=""red"" size=""8vw""> - $0.1 </font> </p>","null","feedback","","","","","","","4.96","-0.1"
+"","","","","","html-keyboard-response","264","571074","0.0-7.76-0.76","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","339","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $4.96 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","265","573499","0.0-7.76-1.76","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2420","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_11.mp4","arrowright","response","ArrowRight","11","2","4","test","true","",""
+"","","","","","html-keyboard-response","266","575001","0.0-7.76-2.76","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","5.12","0.16"
+"","","","","","html-keyboard-response","267","576298","0.0-7.77-0.77","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","1295","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.12 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","268","579338","0.0-7.77-1.77","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3036","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_15.mp4","arrowleft","response","ArrowLeft","15","1","4","test","true","",""
+"","","","","","html-keyboard-response","269","580840","0.0-7.77-2.77","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.15 </font> </p>","null","feedback","","","","","","","5.27","0.15"
+"","","","","","html-keyboard-response","270","581674","0.0-7.78-0.78","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","828","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.27 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","271","584460","0.0-7.78-1.78","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2780","./stimuli//pack_noise_shapes_3/cat_1/diff_4/ex_1_4_17.mp4","arrowleft","response","ArrowLeft","17","1","4","test","true","",""
+"","","","","","html-keyboard-response","272","585964","0.0-7.78-2.78","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","5.43","0.16"
+"","","","","","html-keyboard-response","273","586571","0.0-7.79-0.79","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","604","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.43 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","274","588650","0.0-7.79-1.79","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2076","./stimuli//pack_noise_shapes_3/cat_2/diff_4/ex_2_4_15.mp4","arrowright","response","ArrowRight","15","2","4","test","true","",""
+"","","","","","html-keyboard-response","275","590154","0.0-7.79-2.79","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.17 </font> </p>","null","feedback","","","","","","","5.6","0.17"
+"","","","","","html-keyboard-response","276","590731","0.0-7.80-0.80","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","575","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.6 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","277","593738","0.0-7.80-1.80","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","3003","./stimuli//pack_noise_shapes_3/cat_1/diff_5/ex_1_5_12.mp4","arrowleft","response","ArrowLeft","12","1","5","test","true","",""
+"","","","","","html-keyboard-response","278","595241","0.0-7.80-2.80","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.15 </font> </p>","null","feedback","","","","","","","5.75","0.15"
+"","","","","","html-keyboard-response","279","595835","0.0-7.81-0.81","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","591","
+            
+        <div style=""text-align: center; position: fixed; top: 5vh; left: 40vw;"">
+            <div style=""margin:0 auto; width: 20vw; top: 8vh; font-size: 2vw""> 
+            <font color=""green""> Bonus : $5.75 </font>
+            </div>
+        </div>
+    
+            <p> Please press any key to continue to the next movie.</p>
+            <p> Remember your choices : <p>
+            <div class=""container"">
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_1/prototype_1.png>
+                    <span class=""word""><b>Press left arrow key if the shape looks like this one.</b></span>
+                </div>
+                <div class=""photos"">
+                    <img class=""image"" src=./stimuli//pack_noise_shapes_3/cat_2/prototype_2.png>
+                    <div class=""word""><b>Press right arrow key if the shape looks like this one.</b></div>
+                </div>
+            </div>
+        "," ","ITI","","","","","","","",""
+"","","","","","html-keyboard-response","280","598091","0.0-7.81-1.81","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","2252","./stimuli//pack_noise_shapes_3/cat_1/diff_5/ex_1_5_11.mp4","arrowleft","response","ArrowLeft","11","1","5","test","true","",""
+"","","","","","html-keyboard-response","281","599594","0.0-7.81-2.81","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","null","<p> <font color=""green"" size=""5vw""> Correct match! </font> <br> <br> <font color=""green"" size=""8vw""> + $0.16 </font> </p>","null","feedback","","","","","","","5.91","0.16"
+"","","","","","html-keyboard-response","282","599723","0.0-7.82-0.82","5a945d966475f900019fac27","65801700b94e79b0c0532bf4","6580192712d4254e4dc74ffe","","","","ITI","","","","","","","",""
