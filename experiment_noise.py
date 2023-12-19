@@ -39,7 +39,10 @@ win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=Tru
 msg_welcome = visual.TextBox2(
     win, 
     pos=[0, 0], 
-    text="Welcome to the Category Matching experiment! Press any key to continue.",
+    text="""
+        Welcome to the Category Matching experiment! \n 
+        Press any key to continue.
+        """,
     alignment='center',
     letterHeight = 0.03
 )
@@ -52,7 +55,8 @@ msg_intro_1 = visual.TextBox2(
         While you watch a shape being revealed, you have to choose which shape from the two below it is most similar to :
         """,
     alignment='center',
-    size = (0.8, 0.3)
+    size = (0.8, 0.3),
+    letterHeight = 0.03
 )
 
 msg_intro_2 = visual.TextBox2(
@@ -203,14 +207,14 @@ msg_prototypes = [
     visual.TextBox2(
         win, 
         pos=(-0.5, -0.3), 
-        text="Press Left Arrow key ← if the shape looks like this.", 
+        text="Press Left Arrow key if the shape looks like this.", 
         alignment='center',
         letterHeight = 0.03
     ),
     visual.TextBox2(
         win, 
         pos=(0.5, -0.3), 
-        text="Press Right Arrow key → if the shape looks like this.", 
+        text="Press Right Arrow key if the shape looks like this.", 
         alignment='center',
         letterHeight = 0.03,
     )
