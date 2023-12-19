@@ -3,6 +3,7 @@ from psychopy.hardware import keyboard
 from psychopy.tools.filetools import fromFile, toFile
 from collections import deque
 import numpy as np
+import math
 import random
 import time
 import os
@@ -20,12 +21,16 @@ def update_difficulty(current_diff, max_diff, thrs_acc, past_data) :
 
     return current_diff
 
-
 def find_in_object(obj, name, value):
     for (i,x) in enumerate(obj):
         if x[name] == value:
             return i
 
+def RT_to_reward(RT):
+    max_reward = 0.1
+    decay = 0.2
+
+    return max_reward * math.exp(-decay * RT)
 
 core.checkPygletDuringWait = False
 
@@ -34,41 +39,72 @@ win = visual.Window(size=(800,600), fullscr=True, color=(-1,-1,-1), allowGUI=Tru
 msg_welcome = visual.TextBox2(
     win, 
     pos=[0, 0], 
-    text="Welcome to the Category Learning experiment! Press any key to continue.",
-    alignment='center'
+    text="Welcome to the Category Matching experiment! Press any key to continue.",
+    alignment='center',
+    letterHeight = 0.03
 )
 
 msg_intro_1 = visual.TextBox2(
     win, 
-    pos=[0, 0], 
+    pos=[0, 0.3], 
     text="""
-        This task is divided into trials. In each trial you will see a white shape.\n 
-        After a short delay you will see two other shapes, one left and one right. \n
-        When you see the two shapes you will need to choose which of the two best matches the first shape you saw.\n
-        Press any left hand button if the first shape matches the left one and any right hand button if it matches the right one.\n
-        After you choose, the screen will show you whether you were correct or not.\n
-        You will receive a bonus of $0.05 for each correct answer!\n
-        Press any key to continue.
+        You will be shown movies. Each movie contains a shape that initially is hidden and is gradually revealed. \n 
+        While you watch a shape being revealed, you have to choose which shape from the two below it is most similar to :
         """,
-    alignment='center'
+    alignment='center',
+    size = (0.8, 0.3)
 )
 
 msg_intro_2 = visual.TextBox2(
     win, 
     pos=[0, 0], 
     text="""
-        The first 10 trials are a practice round that will not count towards your bonus payment.\n
-        You will be notified when practice finishes and the test begins.\n
+        After you choose, the screen will show you whether you were correct or not. \n
+        You will receive a bonus payment for each correct answer! The faster you answer the higher the bonus will be! \n
+        So you can increase your bonus by guessing as quickly and accurately as possible. \n
+        You will lose $0.1 from your bonus payment for each incorrect answer! The bonus can not become less than $0. \n
+        Press any key to continue.
+        """,
+    alignment='center',
+    size = (0.8, 0.3),
+    letterHeight = 0.03
+)
+
+msg_intro_3 = visual.TextBox2(
+    win, 
+    pos=[0, 0], 
+    text="""
+        The first 10 shapes are a practice round that will not count towards your bonus payment. \n
+        You will be notified when practice finishes and the test begins. \n
         Press any key to begin the practice round.
         """,
-    alignment='center'
+    alignment='center',
+    size = (0.8, 0.3),
+    letterHeight = 0.03
 )
 
 ITI = visual.TextBox2(
     win, 
+    pos=[0, 0.2], 
+    text="""
+        Please press any button to continue to the next trial. \n
+        Remember your choices :
+        """,
+    alignment='center',
+    letterHeight = 0.03,
+)
+
+intermission = visual.TextBox2(
+    win, 
     pos=[0, 0], 
-    text="Please press any button to continue to the next trial.",
-    alignment='center'
+    text="""
+        The practice round has finished. \n
+        For the rest of the experiment you will receive a bonus payment for each correct answer, which will be higher the faster you answer! \n
+        Also you will lose $0.1 from your bonus payment for each incorrect answer! \n
+        Press any key to begin the test. 
+    """,
+    alignment='center',
+    letterHeight = 0.03
 )
 
 feedback = visual.TextBox2(
@@ -78,8 +114,6 @@ feedback = visual.TextBox2(
     letterHeight = 0.05,
     alignment='center'
 )
-
-debug_msg = visual.TextBox2(win, pos=[0.0, -0.1], text="", alignment='center')
 
 current_score = 0.0
 score = visual.TextBox2(
@@ -93,24 +127,21 @@ score = visual.TextBox2(
 kb = keyboard.Keyboard()
 
 T_experiment = 10 # minutes
-T_stim = 1 # seconds
-T_choice = 4 # seconds
-T_delay = 0.85 # seconds
-delay_jitter_range = [0.0, 0.4] # seconds
+T_feedback = 1 # seconds
 T_correct_fbdk = 1.5 # seconds
 T_incorrect_fdbk = 5 # seconds
+T_bonus_1 = 3 # minutes
+T_bonus_2 = 6 # minutes
 
-correct_bonus = 0.05
+incorrect_penalty = -0.1
 thrs_acc = 0.75
-IS_DEBUG_MODE = False
 
-correct_fdbk = f'Correct category! + ${correct_bonus}'
 correct_fdbk_no_bonus = f'Correct category!'
 wrong_fdbk_no_bonus = "Wrong category!"
 timeout_fdbk_no_bonus = f'Time out! \nPlease try to respond as quickly as possible.'
 
-shape_set = 2
-pack_path = f'stimuli/pack_shapes_{shape_set}/'
+shape_set = 3
+pack_path = f'stimuli/pack_noise_gif_shapes_{shape_set}/'
 
 N_categories = 2
 N_difficulty_levels = 5
@@ -131,14 +162,14 @@ for i in range(N_difficulty_levels) :
         shapes_train = random.choices(files, k = int(np.floor(P * (N_training_trials/2))))
         shapes_test = [f for f in files if f not in shapes_train]
 
-
-        #correct_response = 'right' if j == 1 else 'left'
-        correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
+        correct_response = 'right' if j == 1 else 'left'
+        #correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
         
         stim_test[i] += [
             {
-                'stimulus' : visual.ImageStim(win, s, pos=[0, 0], size=(0.7, 0.7), units='height'), 
+                'stimulus' : visual.MovieStim(win, s, pos=[0, 0], size=(0.7, 0.7), units='height'), 
                 'stimulus_ID' : int(s.split('_')[-1].split('.')[0]),
+                'correct_response' : correct_response,
                 'difficulty' : i+1, 
                 'category' : j+1,
                 'phase' : 'test'
@@ -147,22 +178,43 @@ for i in range(N_difficulty_levels) :
 
         stim_train += [
             {
-                'stimulus' : visual.ImageStim(win, s, pos=[0, 0], size=(0.7, 0.7), units='height'), 
+                'stimulus' : visual.MovieStim(win, s, pos=[0, 0], size=(0.7, 0.7), units='height'), 
                 'stimulus_ID' : int(s.split('_')[-1].split('.')[0]),
+                'correct_response' : correct_response,
                 'difficulty' : i+1, 
                 'category' : j+1,
                 'phase' : 'train'
             } 
         for s in shapes_train]
 
+choice_positions = [(-0.5, -0.1), (0.5, -0.1)]
+
 prototypes = [
-    {
-        'stimulus' : visual.ImageStim(win, pack_path + f'cat_{i+1}/prototype_{i+1}.png', size=(0.7, 0.7), units='height'), 
-        'category' : i+1,
-    }
+    visual.ImageStim(
+        win, 
+        pack_path + f'cat_{i+1}/prototype_{i+1}.png', 
+        size=(0.5, 0.5), 
+        pos = choice_positions[i],
+        units='height'
+    )
 for i in range(N_categories)]
 
-choice_positions = [[-0.5, 0], [0.5, 0]]
+msg_prototypes = [
+    visual.TextBox2(
+        win, 
+        pos=(-0.5, -0.3), 
+        text="Press Left Arrow key ← if the shape looks like this.", 
+        alignment='center',
+        letterHeight = 0.03
+    ),
+    visual.TextBox2(
+        win, 
+        pos=(0.5, -0.3), 
+        text="Press Right Arrow key → if the shape looks like this.", 
+        alignment='center',
+        letterHeight = 0.03,
+    )
+]
 
 trial_handler = data.TrialHandler(
     trialList = stim_train,
@@ -174,16 +226,28 @@ info = {'participant':'', 'session':''}
 info['date'] = data.getDateStr()
 
 exp = data.ExperimentHandler(
-    name='SCL_mixed',
-    extraInfo = info, #the info we created earlier
+    name='SCM_noise',
+    extraInfo = info, 
     dataFileName = 'output', 
 )
 
+msg_welcome.draw()
+win.flip()
+keys = kb.waitKeys()
+
 msg_intro_1.draw()
+for (i,p) in enumerate(prototypes):
+    p.draw()
+    msg_prototypes[i].draw()
+
 win.flip()
 keys = kb.waitKeys()
 
 msg_intro_2.draw()
+win.flip()
+keys = kb.waitKeys()
+
+msg_intro_3.draw()
 win.flip()
 keys = kb.waitKeys()
 
@@ -194,67 +258,53 @@ for trial in trial_handler:
     stim = trial['stimulus']
 
     ITI.draw()
-    score.draw()
-    win.flip()
-    keys = kb.waitKeys()
-
-    stim.draw()
-    score.draw()
-    win.flip()
-    core.wait(T_stim)
-    
-    T_delay_jitter = T_delay + np.random.uniform(*delay_jitter_range)
-    score.draw()
-    win.flip()
-    core.wait(T_delay_jitter)
-
-    random.shuffle(prototypes)
-    idx = find_in_object(prototypes, 'category', trial['category'])
-    correct_response = ['left'] if idx == 0 else ['right']
-
     for (i,p) in enumerate(prototypes):
-        p['stimulus'].setPos(choice_positions[i]) 
-        p['stimulus'].draw()
-
+        p.draw()
+        msg_prototypes[i].draw()
     score.draw()
-
-    if IS_DEBUG_MODE :
-        debug_msg.setText(f"cat : {trial['category']} \n diff : {trial['difficulty']} \n ID : {trial['stimulus_ID']}")
-        debug_msg.draw()
-
-    win.callOnFlip(kb.clock.reset)
     win.flip()
-
-    keys = kb.waitKeys(maxWait=T_choice, keyList=['left', 'right'])
+    keys = kb.waitKeys(waitRelease=True)
 
     correct = 0 
+    response = ""
+    rt = None
+    is_omission = True
     T_feedback = 0
-    if not keys:
-        feedback.setText(timeout_fdbk_no_bonus)
-        response = ""
-        rt = None
-        T_feedback = T_incorrect_fdbk
-    else:
-        response = keys[-1].name
-        rt = keys[-1].rt
 
-        if response in correct_response:
-            feedback.setText(correct_fdbk_no_bonus)
-            correct = 1
-            T_feedback = T_correct_fbdk
-        else:
-            feedback.setText(wrong_fdbk_no_bonus)
-            T_feedback = T_incorrect_fdbk
+    win.callOnFlip(kb.clock.reset)
+    while not stim.isFinished :
+        stim.draw()
+        score.draw()
+        win.flip()
+        #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
+        keys = kb.getKeys(keyList=['left', 'right'])
+
+        if keys :
+            is_omission = False
+            response = keys[-1].name
+            rt = keys[-1].rt
+            #if response == trial['correct_response']:
+            if response in trial['correct_response']:
+                feedback.setText(correct_fdbk_no_bonus)
+                correct = 1
+                T_feedback = T_correct_fbdk
+            else:
+                feedback.setText(wrong_fdbk_no_bonus)
+                T_feedback = T_incorrect_fdbk
+            break
+
+    if is_omission : 
+        feedback.setText(timeout_fdbk_no_bonus)
+        T_feedback = T_incorrect_fdbk
 
     exp.addData('response', response)
     exp.addData('correct', correct)
-    exp.addData('correct_response', correct_response)
+    exp.addData('correct_response', trial['correct_response'])
     exp.addData('response_time', rt)
     exp.addData('bonus', 0.0)
     exp.addData('difficulty', trial['difficulty'])
     exp.addData('category', trial['category'])
     exp.addData('phase', trial['phase'])
-    exp.addData('t_delay', T_delay_jitter)
     exp.nextEntry()
 
     score.setText(f'Bonus : ${np.round(current_score,3)}')
@@ -268,22 +318,17 @@ for trial in trial_handler:
         win.close()
         core.quit()
 
-intermission = visual.TextBox2(
-    win, 
-    pos=[0, 0], 
-    text="""
-        The practice round has finished. \n
-        For the rest of the experiment you will receive a $0.05 bonus for each correct answer and lose $0.05 from your bonus for each incorrect answer! \n
-        The bonus can not become less than $0. \n
-        Press any key to begin the test.
-    """,
-    alignment='center'
-)
 intermission.draw()
 win.flip()
 keys = kb.waitKeys()
 
 timer = core.CountdownTimer(T_experiment * 60)
+
+timer_bonus_1 = core.CountdownTimer(T_bonus_1 * 60)
+timer_bonus_2 = core.CountdownTimer(T_bonus_2 * 60)
+done_bonus_1 = False
+done_bonus_2 = False
+additional_bonus = 0.0
 #-------------------
 #----Test trials----
 #-------------------
@@ -298,62 +343,64 @@ while timer.getTime() > 0 :
     stim = trial['stimulus']
 
     ITI.draw()
-    score.draw()
-    win.flip()
-    keys = kb.waitKeys()
-
-    stim.draw()
-    score.draw()
-    win.flip()
-    core.wait(T_stim)
-    
-    score.draw()
-    win.flip()
-    core.wait(T_delay)
-
-    random.shuffle(prototypes)
-    idx = find_in_object(prototypes, 'category', trial['category'])
-    correct_response = ['left'] if idx == 0 else ['right']
-
     for (i,p) in enumerate(prototypes):
-        p['stimulus'].setPos(choice_positions[i]) 
-        p['stimulus'].draw()
-
+        p.draw()
+        msg_prototypes[i].draw()
     score.draw()
-
-    if IS_DEBUG_MODE :
-        debug_msg.setText(f"cat : {trial['category']} \n diff : {trial['difficulty']} \n ID : {trial['stimulus_ID']}")
-        debug_msg.draw()
-
-    win.callOnFlip(kb.clock.reset)
     win.flip()
+    keys = kb.waitKeys(waitRelease=True)
 
-    keys = kb.waitKeys(maxWait=T_choice, keyList=['left', 'right'])
     correct = 0 
+    response = ""
+    rt = None
+    is_omission = True
     T_feedback = 0
-    trial_bonus = 0
-    if not keys:
-        response = ""
-        rt = None
-        feedback.setText(timeout_fdbk_no_bonus)
-        T_feedback = T_incorrect_fdbk
-    else:
-        response = keys[-1].name
-        rt = keys[-1].rt
 
-        if response in correct_response:
-            trial_bonus = correct_bonus
-            feedback.setText(correct_fdbk)
-            correct = 1
-            current_score += trial_bonus
-            T_feedback = T_correct_fbdk
-        else:
-            feedback.setText(wrong_fdbk_no_bonus)
-            T_feedback = T_incorrect_fdbk
+    trial_bonus = 0
+    win.callOnFlip(kb.clock.reset)
+
+    while not stim.isFinished :
+        stim.draw()
+        score.draw()
+        win.flip()
+        #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
+        keys = kb.getKeys(keyList=['left', 'right'])
+    
+        if keys :
+            is_omission = False
+            response = keys[-1].name
+            rt = keys[-1].rt
+            #if response == trial['correct_response']:
+            if response in trial['correct_response']:
+                trial_bonus = np.round(RT_to_reward(rt) + additional_bonus, 3)
+                correct_fdbk = f'Correct category! + ${trial_bonus}'
+                feedback.setText(correct_fdbk)
+                correct = 1
+                T_feedback = T_correct_fbdk
+            else:
+                T_feedback = T_incorrect_fdbk
+                if current_score >= abs(incorrect_penalty) :
+                    trial_bonus = incorrect_penalty
+                    wrong_fdbk = f'Wrong category! - ${abs(trial_bonus)}'
+                    feedback.setText(wrong_fdbk)
+                else:
+                    feedback.setText(wrong_fdbk_no_bonus)
+            break
+
+    if is_omission:
+        T_feedback = T_incorrect_fdbk
+        if current_score >= incorrect_penalty :
+            trial_bonus = incorrect_penalty
+            timeout_fdbk = f'Time out! - ${abs(trial_bonus)} \n Please try to respond as quickly as possible.'
+            feedback.setText(timeout_fdbk)
+        else :
+            feedback.setText(timeout_fdbk_no_bonus)
+
+    current_score += trial_bonus
 
     exp.addData('response', response)
     exp.addData('correct', correct)
-    exp.addData('correct_response', correct_response)
+    exp.addData('correct_response', trial['correct_response'])
     exp.addData('response_time', rt)
     exp.addData('bonus', trial_bonus)
     exp.addData('difficulty', trial['difficulty'])
@@ -373,6 +420,13 @@ while timer.getTime() > 0 :
         exp.saveAsWideText('output.csv')
         win.close()
         core.quit()
+    
+    if (not done_bonus_1) and (timer_bonus_1.getTime() <= 0) :
+        done_bonus_1 = True
+        additional_bonus += 0.05
+    elif (not done_bonus_2) and (timer_bonus_2.getTime() <= 0) :
+        done_bonus_2 = True
+        additional_bonus += 0.05
 
 win.close()
 core.quit()

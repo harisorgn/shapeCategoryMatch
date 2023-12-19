@@ -174,8 +174,8 @@ info = {'participant':'', 'session':''}
 info['date'] = data.getDateStr()
 
 exp = data.ExperimentHandler(
-    name='SCL_mixed',
-    extraInfo = info, #the info we created earlier
+    name='SCM',
+    extraInfo = info,
     dataFileName = 'output', 
 )
 
