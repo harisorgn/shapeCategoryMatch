@@ -171,7 +171,7 @@ for i in range(N_difficulty_levels) :
         
         stim_test[i] += [
             {
-                'stimulus' : visual.MovieStim(win, s, pos=[0, 0], size=(0.7, 0.7), units='height'), 
+                'stimulus' : s, 
                 'stimulus_ID' : int(s.split('_')[-1].split('.')[0]),
                 'correct_response' : correct_response,
                 'difficulty' : i+1, 
@@ -182,7 +182,7 @@ for i in range(N_difficulty_levels) :
 
         stim_train += [
             {
-                'stimulus' : visual.MovieStim(win, s, pos=[0, 0], size=(0.7, 0.7), units='height'), 
+                'stimulus' : s, 
                 'stimulus_ID' : int(s.split('_')[-1].split('.')[0]),
                 'correct_response' : correct_response,
                 'difficulty' : i+1, 
@@ -259,7 +259,7 @@ keys = kb.waitKeys()
 #--Training trials--
 #-------------------
 for trial in trial_handler:
-    stim = trial['stimulus']
+    stim = visual.MovieStim(win, trial['stimulus'], pos=[0, 0], size=(0.7, 0.7), units='height')
 
     ITI.draw()
     for (i,p) in enumerate(prototypes):
@@ -344,7 +344,7 @@ while timer.getTime() > 0 :
 
     trial = random.choice(stim_test[current_difficulty - 1])
 
-    stim = trial['stimulus']
+    stim = visual.MovieStim(win, trial['stimulus'], pos=[0, 0], size=(0.7, 0.7), units='height') 
 
     ITI.draw()
     for (i,p) in enumerate(prototypes):
@@ -398,7 +398,7 @@ while timer.getTime() > 0 :
 
     if is_omission:
         T_feedback = T_incorrect_fdbk
-        if current_score >= incorrect_penalty :
+        if current_score >= abs(incorrect_penalty) :
             trial_bonus = incorrect_penalty
             timeout_fdbk = f'Time out! - ${abs(trial_bonus)} \n Please try to respond as quickly as possible.'
             feedback.setText(timeout_fdbk)
