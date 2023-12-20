@@ -269,6 +269,11 @@ for trial in trial_handler:
     win.flip()
     keys = kb.waitKeys(waitRelease=True)
 
+    if 'escape' in keys:
+        exp.saveAsWideText('output.csv')
+        win.close()
+        core.quit()
+
     correct = 0 
     response = ""
     rt = None
@@ -281,7 +286,7 @@ for trial in trial_handler:
         score.draw()
         win.flip()
         #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
-        keys = kb.getKeys(keyList=['left', 'right'])
+        keys = kb.getKeys(keyList=['left', 'right'], waitRelease=True)
 
         if keys :
             is_omission = False
@@ -317,11 +322,6 @@ for trial in trial_handler:
     win.flip()
     core.wait(T_feedback)
 
-    if 'escape' in event.waitKeys():
-        exp.saveAsWideText('output.csv')
-        win.close()
-        core.quit()
-
 intermission.draw()
 win.flip()
 keys = kb.waitKeys()
@@ -354,6 +354,11 @@ while timer.getTime() > 0 :
     win.flip()
     keys = kb.waitKeys(waitRelease=True)
 
+    if 'escape' in keys:
+        exp.saveAsWideText('output.csv')
+        win.close()
+        core.quit()
+
     correct = 0 
     response = ""
     rt = None
@@ -368,7 +373,7 @@ while timer.getTime() > 0 :
         score.draw()
         win.flip()
         #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
-        keys = kb.getKeys(keyList=['left', 'right'])
+        keys = kb.getKeys(keyList=['left', 'right'], waitRelease=True)
     
         if keys :
             is_omission = False
@@ -419,11 +424,6 @@ while timer.getTime() > 0 :
     score.draw()
     win.flip()
     core.wait(T_feedback)
-
-    if 'escape' in event.waitKeys():
-        exp.saveAsWideText('output.csv')
-        win.close()
-        core.quit()
     
     if (not done_bonus_1) and (timer_bonus_1.getTime() <= 0) :
         done_bonus_1 = True
