@@ -4,7 +4,7 @@ import scipy.io as io
 
 from utils import *
 
-shape_set = 3
+shape_set = 2
 path_src = f'./shapes_{shape_set}/'
 SC = np.loadtxt(path_src + 'SC.txt', dtype='f', delimiter=',')
 D = distance_matrix(SC, SC)
@@ -15,7 +15,7 @@ N_stim = SC.shape[0]
 diffs = split_diff(SC, N_categories)
 cat_ranges = category_ranges(N_stim, N_categories)
 
-path_dest = f'./stimuli/pack_noise_shapes_{shape_set}/'
+path_dest = f'./stimuli/pack_noise_gif_shapes_{shape_set}/'
 
 name_mat = 'shape_set360'
 SHAPES = io.loadmat(path_src + 'shapes.mat')[name_mat]
