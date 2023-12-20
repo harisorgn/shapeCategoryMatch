@@ -101,6 +101,7 @@ T_correct_fbdk = 1.5 # seconds
 T_incorrect_fdbk = 5 # seconds
 
 correct_bonus = 0.05
+incorrect_penalty = -0.05
 thrs_acc = 0.75
 IS_DEBUG_MODE = False
 
@@ -335,8 +336,14 @@ while timer.getTime() > 0 :
     if not keys:
         response = ""
         rt = None
-        feedback.setText(timeout_fdbk_no_bonus)
+
         T_feedback = T_incorrect_fdbk
+        if current_score >= abs(incorrect_penalty) :
+            trial_bonus = incorrect_penalty
+            timeout_fdbk = f'Time out! - ${abs(trial_bonus)} \n Please try to respond as quickly as possible.'
+            feedback.setText(timeout_fdbk)
+        else :
+            feedback.setText(timeout_fdbk_no_bonus)
     else:
         response = keys[-1].name
         rt = keys[-1].rt
@@ -345,11 +352,17 @@ while timer.getTime() > 0 :
             trial_bonus = correct_bonus
             feedback.setText(correct_fdbk)
             correct = 1
-            current_score += trial_bonus
             T_feedback = T_correct_fbdk
         else:
-            feedback.setText(wrong_fdbk_no_bonus)
             T_feedback = T_incorrect_fdbk
+            if current_score >= abs(incorrect_penalty) :
+                trial_bonus = incorrect_penalty
+                wrong_fdbk = f'Wrong category! - ${abs(trial_bonus)}'
+                feedback.setText(wrong_fdbk)
+            else:
+                feedback.setText(wrong_fdbk_no_bonus)
+
+    current_score += trial_bonus
 
     exp.addData('response', response)
     exp.addData('correct', correct)
