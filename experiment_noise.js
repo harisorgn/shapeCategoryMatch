@@ -15,6 +15,8 @@ var additional_bonus = 0.0;
 const T_additional_bonus_1 = 3; // minutes
 const T_additional_bonus_2 = 6; // minutes
 
+var trial_bonus = 0;
+
 var is_time_out = false;
 var score = 0;
 
@@ -258,8 +260,6 @@ var stim_test = {
     },
     render_on_canvas: false
 };
-
-var trial_bonus = 0;
 
 var feedback_test = {
     type: jsPsychHtmlKeyboardResponse,
