@@ -167,7 +167,6 @@ for i in range(N_difficulty_levels) :
         shapes_test = [f for f in files if f not in shapes_train]
 
         correct_response = 'right' if j == 1 else 'left'
-        #correct_response = ['1','2','3','4','5'] if j == 1 else ['6','7','8','9','0']
         
         stim_test[i] += [
             {
@@ -285,14 +284,13 @@ for trial in trial_handler:
         stim.draw()
         score.draw()
         win.flip()
-        #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
         keys = kb.getKeys(keyList=['left', 'right'], waitRelease=True)
 
         if keys :
             is_omission = False
             response = keys[-1].name
             rt = keys[-1].rt
-            #if response == trial['correct_response']:
+
             if response in trial['correct_response']:
                 feedback.setText(correct_fdbk_no_bonus)
                 correct = 1
@@ -343,7 +341,6 @@ while timer.getTime() > 0 :
     current_difficulty = update_difficulty(current_difficulty, N_difficulty_levels, thrs_acc, past_data)
 
     trial = random.choice(stim_test[current_difficulty - 1])
-
     stim = visual.MovieStim(win, trial['stimulus'], pos=[0, 0], size=(0.7, 0.7), units='height') 
 
     ITI.draw()
@@ -372,14 +369,13 @@ while timer.getTime() > 0 :
         stim.draw()
         score.draw()
         win.flip()
-        #keys = kb.getKeys(keyList=['1','2','3','4','5','6','7','8','9','0'])
         keys = kb.getKeys(keyList=['left', 'right'], waitRelease=True)
     
         if keys :
             is_omission = False
             response = keys[-1].name
             rt = keys[-1].rt
-            #if response == trial['correct_response']:
+            
             if response in trial['correct_response']:
                 trial_bonus = np.round(RT_to_reward(rt) + additional_bonus, 3)
                 correct_fdbk = f'Correct category! + ${trial_bonus}'
